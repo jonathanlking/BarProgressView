@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB859F001596238400221DC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB859EFF1596238400221DC5 /* UIKit.framework */; };
+		AB859F021596238400221DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB859F011596238400221DC5 /* Foundation.framework */; };
+		AB859F041596238400221DC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB859F031596238400221DC5 /* CoreGraphics.framework */; };
+		AB859F0A1596238400221DC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB859F081596238400221DC5 /* InfoPlist.strings */; };
+		AB859F0C1596238400221DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB859F0B1596238400221DC5 /* main.m */; };
+		AB859F101596238400221DC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB859F0F1596238400221DC5 /* AppDelegate.m */; };
+		AB859F131596238400221DC5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB859F111596238400221DC5 /* MainStoryboard.storyboard */; };
+		AB859F161596238400221DC5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB859F151596238400221DC5 /* MainViewController.m */; };
+		AB859F191596238400221DC5 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB859F181596238400221DC5 /* FlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB859EFB1596238400221DC5 /* BarProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB859EFF1596238400221DC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB859F011596238400221DC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB859F031596238400221DC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB859F071596238400221DC5 /* BarProgressView-Info.plist */ = {isa = PBXFileReference; path = "BarProgressView-Info.plist"; sourceTree = "<group>"; };
+		AB859F091596238400221DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB859F0B1596238400221DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB859F0D1596238400221DC5 /* BarProgressView-Prefix.pch */ = {isa = PBXFileReference; path = "BarProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		AB859F0E1596238400221DC5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB859F0F1596238400221DC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB859F121596238400221DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AB859F141596238400221DC5 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		AB859F151596238400221DC5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AB859F171596238400221DC5 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		AB859F181596238400221DC5 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB859EF81596238400221DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB859F001596238400221DC5 /* UIKit.framework in Frameworks */,
+				AB859F021596238400221DC5 /* Foundation.framework in Frameworks */,
+				AB859F041596238400221DC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB859EF01596238400221DC5 = {
+			isa = PBXGroup;
+			children = (
+				AB859F051596238400221DC5 /* BarProgressView */,
+				AB859EFE1596238400221DC5 /* Frameworks */,
+				AB859EFC1596238400221DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB859EFC1596238400221DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB859EFB1596238400221DC5 /* BarProgressView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB859EFE1596238400221DC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB859EFF1596238400221DC5 /* UIKit.framework */,
+				AB859F011596238400221DC5 /* Foundation.framework */,
+				AB859F031596238400221DC5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB859F051596238400221DC5 /* BarProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				AB859F0E1596238400221DC5 /* AppDelegate.h */,
+				AB859F0F1596238400221DC5 /* AppDelegate.m */,
+				AB859F111596238400221DC5 /* MainStoryboard.storyboard */,
+				AB859F141596238400221DC5 /* MainViewController.h */,
+				AB859F151596238400221DC5 /* MainViewController.m */,
+				AB859F171596238400221DC5 /* FlipsideViewController.h */,
+				AB859F181596238400221DC5 /* FlipsideViewController.m */,
+				AB859F061596238400221DC5 /* Supporting Files */,
+			);
+			path = BarProgressView;
+			sourceTree = "<group>";
+		};
+		AB859F061596238400221DC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB859F071596238400221DC5 /* BarProgressView-Info.plist */,
+				AB859F081596238400221DC5 /* InfoPlist.strings */,
+				AB859F0B1596238400221DC5 /* main.m */,
+				AB859F0D1596238400221DC5 /* BarProgressView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB859EFA1596238400221DC5 /* BarProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB859F1C1596238400221DC5 /* Build configuration list for PBXNativeTarget "BarProgressView" */;
+			buildPhases = (
+				AB859EF71596238400221DC5 /* Sources */,
+				AB859EF81596238400221DC5 /* Frameworks */,
+				AB859EF91596238400221DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarProgressView;
+			productName = BarProgressView;
+			productReference = AB859EFB1596238400221DC5 /* BarProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB859EF21596238400221DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AB859EF51596238400221DC5 /* Build configuration list for PBXProject "BarProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB859EF01596238400221DC5;
+			productRefGroup = AB859EFC1596238400221DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB859EFA1596238400221DC5 /* BarProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB859EF91596238400221DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB859F0A1596238400221DC5 /* InfoPlist.strings in Resources */,
+				AB859F131596238400221DC5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB859EF71596238400221DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB859F0C1596238400221DC5 /* main.m in Sources */,
+				AB859F101596238400221DC5 /* AppDelegate.m in Sources */,
+				AB859F161596238400221DC5 /* MainViewController.m in Sources */,
+				AB859F191596238400221DC5 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB859F081596238400221DC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB859F091596238400221DC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB859F111596238400221DC5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB859F121596238400221DC5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB859F1A1596238400221DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB859F1B1596238400221DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB859F1D1596238400221DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarProgressView/BarProgressView-Prefix.pch";
+				INFOPLIST_FILE = "BarProgressView/BarProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB859F1E1596238400221DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarProgressView/BarProgressView-Prefix.pch";
+				INFOPLIST_FILE = "BarProgressView/BarProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB859EF51596238400221DC5 /* Build configuration list for PBXProject "BarProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB859F1A1596238400221DC5 /* Debug */,
+				AB859F1B1596238400221DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB859F1C1596238400221DC5 /* Build configuration list for PBXNativeTarget "BarProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB859F1D1596238400221DC5 /* Debug */,
+				AB859F1E1596238400221DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB859EF21596238400221DC5 /* Project object */;
+}
