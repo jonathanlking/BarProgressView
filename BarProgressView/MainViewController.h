@@ -7,7 +7,15 @@
 //
 
 #import "FlipsideViewController.h"
+#import "BarProgressView.h"
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
+    
+    IBOutlet BarProgressView *progressView;
+    IBOutlet UISlider *slider;
+}
+
+- (IBAction)valueSliderChangeValue:(UISlider *)sender;
+- (IBAction)simulateProgress:(id)sender;
 
 @end

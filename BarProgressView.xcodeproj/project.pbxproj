@@ -16,6 +16,8 @@
 		AB859F131596238400221DC5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB859F111596238400221DC5 /* MainStoryboard.storyboard */; };
 		AB859F161596238400221DC5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB859F151596238400221DC5 /* MainViewController.m */; };
 		AB859F191596238400221DC5 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB859F181596238400221DC5 /* FlipsideViewController.m */; };
+		ABA021671596284E00F45D26 /* BarProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA021661596284E00F45D26 /* BarProgressView.m */; };
+		ABA0216D159628BD00F45D26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA0216C159628BD00F45D26 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,9 @@
 		AB859F151596238400221DC5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		AB859F171596238400221DC5 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		AB859F181596238400221DC5 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		ABA021651596284E00F45D26 /* BarProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarProgressView.h; sourceTree = "<group>"; };
+		ABA021661596284E00F45D26 /* BarProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarProgressView.m; sourceTree = "<group>"; };
+		ABA0216C159628BD00F45D26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA0216D159628BD00F45D26 /* QuartzCore.framework in Frameworks */,
 				AB859F001596238400221DC5 /* UIKit.framework in Frameworks */,
 				AB859F021596238400221DC5 /* Foundation.framework in Frameworks */,
 				AB859F041596238400221DC5 /* CoreGraphics.framework in Frameworks */,
@@ -53,7 +59,8 @@
 		AB859EF01596238400221DC5 = {
 			isa = PBXGroup;
 			children = (
-				AB859F051596238400221DC5 /* BarProgressView */,
+				ABA0216C159628BD00F45D26 /* QuartzCore.framework */,
+				AB859F051596238400221DC5 /* Project */,
 				AB859EFE1596238400221DC5 /* Frameworks */,
 				AB859EFC1596238400221DC5 /* Products */,
 			);
@@ -77,7 +84,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AB859F051596238400221DC5 /* BarProgressView */ = {
+		AB859F051596238400221DC5 /* Project */ = {
 			isa = PBXGroup;
 			children = (
 				AB859F0E1596238400221DC5 /* AppDelegate.h */,
@@ -87,8 +94,10 @@
 				AB859F151596238400221DC5 /* MainViewController.m */,
 				AB859F171596238400221DC5 /* FlipsideViewController.h */,
 				AB859F181596238400221DC5 /* FlipsideViewController.m */,
+				ABA02160159626E800F45D26 /* BarProgressViewClass */,
 				AB859F061596238400221DC5 /* Supporting Files */,
 			);
+			name = Project;
 			path = BarProgressView;
 			sourceTree = "<group>";
 		};
@@ -101,6 +110,15 @@
 				AB859F0D1596238400221DC5 /* BarProgressView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA02160159626E800F45D26 /* BarProgressViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				ABA021651596284E00F45D26 /* BarProgressView.h */,
+				ABA021661596284E00F45D26 /* BarProgressView.m */,
+			);
+			name = BarProgressViewClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +187,7 @@
 				AB859F101596238400221DC5 /* AppDelegate.m in Sources */,
 				AB859F161596238400221DC5 /* MainViewController.m in Sources */,
 				AB859F191596238400221DC5 /* FlipsideViewController.m in Sources */,
+				ABA021671596284E00F45D26 /* BarProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +297,7 @@
 				AB859F1E1596238400221DC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
